@@ -20,7 +20,12 @@ k apply -f stress.yaml
 
 2.2 Inspectez l’état de votre Pod, dans quel état se trouve-t-il ? Quelle en est la raison ?
 
-Le pod est en état de waiting à cause d'un CrashLoopBackOff. Ca veut dire qu'il est en attente de redémarrge continu  
+Le pod est en état Terminated car il a été arrêté par le système
+
+2.3 Ajustez la configuration de votre Pod pour régler l’erreur
+*Vous ne devez pas modifier le `args`*
+
+
 
 
 
